@@ -4,6 +4,10 @@ public class SimpleChainedList {
 
     private SimpleChainedNode head;
 
+    public SimpleChainedList(int value) {
+        this.head = new SimpleChainedNode(value);
+    }
+
     public void addValue(int value) {
         if(this.head==null) {
             this.head = new SimpleChainedNode(value);
@@ -50,17 +54,17 @@ public class SimpleChainedList {
         }
 
         SimpleChainedNode current = head;
-        while(current.getNextNode() != null && current.getNextNode().getValue() != value ) {
+        while (current.getNextNode() != null) {
+            if (current.getNextNode().getValue() == value) {
+                current.setNextNode(current.getNextNode().getNextNode());
+                return true;
+            }
             current = current.getNextNode();
-        }
-
-        if (current.getValue() == value) {
-            current.setNextNode(current.getNextNode().getNextNode());
-            return true;
         }
 
         return false;
     }
+
 
     public ArrayList<Integer> listNodes() {
         ArrayList<Integer> nodeList = new ArrayList<>();
