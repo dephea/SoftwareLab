@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Lab2/src/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/Square.java" afterDir="false" />
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Added form classes (Lab2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareLab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,11 +78,20 @@
       <option name="project" value="LOCAL" />
       <updated>1741853395473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added form classes (Lab2)">
+      <option name="closed" value="true" />
+      <created>1741855275578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741855275578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Added form classes (Lab2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added form classes (Lab2)" />
   </component>
 </project>
