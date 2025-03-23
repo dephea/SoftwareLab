@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class SimpleChainedList {
+public class SimpleChainedList implements isSorted{
 
     private SimpleChainedNode head;
 
@@ -76,5 +76,23 @@ public class SimpleChainedList {
         }
 
         return nodeList;
+    }
+
+    @Override
+    public boolean isSorted(boolean ascendingOrder) {
+        SimpleChainedNode current = head;
+        while (current.getNextNode() != null) {
+            if (ascendingOrder) {
+                if (current.getValue() > current.getNextNode().getValue()) {
+                    return false;
+                }
+            } else {
+                if (current.getValue() < current.getNextNode().getValue()) {
+                    return false;
+                }
+            }
+            current = current.getNextNode();
+        }
+        return true;
     }
 }

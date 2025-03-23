@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class DoubleChainedList {
+public class DoubleChainedList implements isSorted{
     private DoubleChainedNode head;
 
     public DoubleChainedList(int value) {
@@ -86,5 +86,23 @@ public class DoubleChainedList {
         }
 
         return nodeList;
+    }
+
+    @Override
+    public boolean isSorted(boolean ascendingOrder) {
+        DoubleChainedNode current = head;
+        while (current.getNextNode() != null) {
+            if (ascendingOrder) {
+                if (current.getValue() > current.getNextNode().getValue()) {
+                    return false;
+                }
+            } else {
+                if (current.getValue() < current.getNextNode().getValue()) {
+                    return false;
+                }
+            }
+            current = current.getNextNode();
+        }
+        return true;
     }
 }

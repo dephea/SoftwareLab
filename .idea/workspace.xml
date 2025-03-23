@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Added simple chained list (Lab2)">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Added double chained list (Lab2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/src/DoubleChainedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/DoubleChainedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/DoubleChainedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/DoubleChainedNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/src/SimpleChainedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/SimpleChainedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareLab.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lwara\Desktop\SoftwareLab\Lab2\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,13 +107,22 @@
       <option name="project" value="LOCAL" />
       <updated>1742158252775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added double chained list (Lab2)">
+      <option name="closed" value="true" />
+      <created>1742162262927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742162262927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added form classes (Lab2)" />
     <MESSAGE value="Added simple chained list (Lab2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added simple chained list (Lab2)" />
+    <MESSAGE value="Added double chained list (Lab2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added double chained list (Lab2)" />
   </component>
 </project>
