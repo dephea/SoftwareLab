@@ -50,10 +50,10 @@ public class Lab4 {
 
         HashMap<String, HashMap<String, String>> Students = new HashMap<>();
         ArrayList<String> studentNames = new ArrayList<>();
-        studentNames.add("Student1");
-        studentNames.add("Student2");
-        studentNames.add("Student3");
-        studentNames.add("Student4");
+        studentNames.add("Diana");
+        studentNames.add("Elena");
+        studentNames.add("Maria");
+        studentNames.add("Jennifer");
 
         ArrayList<String> groupNames = new ArrayList<>();
         groupNames.add("B");
@@ -61,12 +61,18 @@ public class Lab4 {
         groupNames.add("D");
         groupNames.add("ABCD");
 
+        ArrayList<String> subjectNames = new ArrayList<>();
+        subjectNames.add("OOP");
+        subjectNames.add("Linear Algebra");
+        subjectNames.add("Assembly language");
+        subjectNames.add("Electronics");
+        subjectNames.add("P.E.");
 
         for (String name : studentNames) {
             HashMap<String, String> data = new HashMap<>();
-            for (int i = 1; i <= 5; i++) {
+            for(String subject : subjectNames) {
                 int grade = (int) (Math.random() * 7) + 4;
-                data.put("Note" + i, String.valueOf(grade));
+                data.put(subject, String.valueOf(grade));
             }
 
             data.put("Group", groupNames.get((int)(Math.random() * 3)));
@@ -81,24 +87,38 @@ public class Lab4 {
         System.out.println("Sorted by group (alphabetically): "+ studentList);
 
         List<Map.Entry<String, HashMap<String, String>>> Integralists = new ArrayList<>();
+        List<Map.Entry<String, HashMap<String, String>>> Restantieri = new ArrayList<>();
 
-        for (var i : studentList) {
-            HashMap<String, String> data = i.getValue();
+        for (var student : studentList) {
+            HashMap<String, String> data = student.getValue();
             boolean allAboveFive = true;
+            int gradesSum = 0;
 
-            for (int j = 1; j <= 5; j++) {
-                int grade = Integer.parseInt(data.get("Note" + j));
+            for (String subject : subjectNames) {
+                int grade = Integer.parseInt(data.get(subject));
                 if (grade < 5) {
                     allAboveFive = false;
+                    Restantieri.add(student);
                     break;
                 }
+                gradesSum += grade;
             }
 
             if (allAboveFive) {
-                Integralists.add(i);
+                data.put("Average", String.valueOf((gradesSum/5)));
+                Integralists.add(student);
             }
         }
 
+        Integralists.sort(Comparator.comparing(
+                        (Map.Entry<String, HashMap<String, String>> o) ->
+                                Integer.parseInt(o.getValue().get("Average")))
+                .reversed()
+        );
+
+
+        System.out.println("Integralists: \n" + Integralists);
+        System.out.println("Restantieri: \n" + Restantieri);
 
     }
 }
