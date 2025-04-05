@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Added Lab3">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Finished Lab3 (singleton pattern)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/src/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/src/Lab3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/src/PasswordMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/src/PasswordMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743877884752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished Lab3 (singleton pattern)">
+      <option name="closed" value="true" />
+      <created>1743886613516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743886613516</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,7 +165,8 @@
     <MESSAGE value="Finished exercise 4.5.2 for Lab4" />
     <MESSAGE value="Finished Lab5" />
     <MESSAGE value="Added Lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lab3" />
+    <MESSAGE value="Finished Lab3 (singleton pattern)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab3 (singleton pattern)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
