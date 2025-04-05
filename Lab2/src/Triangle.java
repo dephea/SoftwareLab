@@ -1,4 +1,4 @@
-public class Triangle extends Form{
+public class Triangle extends Form3 {
     private float height, base;
 
     public Triangle() {

@@ -1,4 +1,4 @@
-public class Circle extends Form {
+public class Circle extends Form3 {
     private float radius;
 
     public Circle() {

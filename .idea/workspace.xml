@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Finished exercise 4.5.2 for Lab4">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Finished Lab5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/src/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoftwareLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareLab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742733213839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Lab5">
+      <option name="closed" value="true" />
+      <created>1743065726372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743065726372</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +152,43 @@
     <MESSAGE value="Added double chained list (Lab2)" />
     <MESSAGE value="Finished Lab2" />
     <MESSAGE value="Finished exercise 4.5.2 for Lab4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished exercise 4.5.2 for Lab4" />
+    <MESSAGE value="Finished Lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

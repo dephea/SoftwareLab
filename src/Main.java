@@ -5,9 +5,13 @@ public class Main {
 
         //Lab2.Lab2Func();
 
+        Lab3.Lab3Func();
+
         //Lab4.Lab4Func();
 
-        Lab5.Lab5Func();
+        //Lab5.Lab5Func();
+
+        //Lab6.Lab6Func();
     }
 
 }

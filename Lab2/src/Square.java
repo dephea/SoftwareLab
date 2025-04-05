@@ -1,4 +1,4 @@
-public class Square extends Form{
+public class Square extends Form3 {
     private float side;
 
     public Square() {
