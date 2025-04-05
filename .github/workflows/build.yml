@@ -17,3 +17,5 @@ jobs:
 
       - name: Compile Java files
         run: javac $(find . -name "*.java")
+      - name: Run Java program
+        run: java Main
