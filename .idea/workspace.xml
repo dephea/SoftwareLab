@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Finished Lab5">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Added Lab3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareLab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/src/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/src/Lab3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/src/PasswordMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/src/PasswordMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lwara\Desktop\SoftwareLab\Lab2\src" />
@@ -142,10 +138,19 @@
       <option name="project" value="LOCAL" />
       <updated>1743065726372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Lab3">
+      <option name="closed" value="true" />
+      <created>1743877884752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743877884752</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added form classes (Lab2)" />
     <MESSAGE value="Added simple chained list (Lab2)" />
@@ -153,39 +158,40 @@
     <MESSAGE value="Finished Lab2" />
     <MESSAGE value="Finished exercise 4.5.2 for Lab4" />
     <MESSAGE value="Finished Lab5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab5" />
+    <MESSAGE value="Added Lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>15</line>
+          <line>36</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>27</line>
+          <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>46</line>
+          <line>68</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>50</line>
+          <line>72</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>54</line>
+          <line>76</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab3/src/PasswordMaker.java</url>
-          <line>57</line>
+          <line>79</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

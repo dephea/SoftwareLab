@@ -3,10 +3,31 @@ import java.util.Random;
 public class PasswordMaker {
     private String name;
     private StringBuilder password;
+    private static PasswordMaker instance = null;
+    private static int counter = 0;
 
-    public PasswordMaker(String name) {
+    // Implementati o versiune de Singleton in care variabila instance este initializata intr-un bloc static:
+
+    static {
+        instance = new PasswordMaker("Initialized from the static initializer");
+    }
+
+
+    private PasswordMaker(String name) {
         this.name = name;
+    }
 
+    public static PasswordMaker getInstance() {
+        counter++;
+        if (instance == null) {
+            return new PasswordMaker("placeholder");
+        } else {
+            return instance;
+        }
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 
     public String getPassword() {
@@ -17,6 +38,7 @@ public class PasswordMaker {
         Random random = new Random();
         String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
+        // probably should hide the password creating logic into a private method but whatever
 
         // MAGIC NUMBER PART:
         StringBuilder MagicNumberArray = new StringBuilder();
