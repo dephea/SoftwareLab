@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Add run java main">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Add run java main (2)">
       <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/src/outrand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/outrand.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743887566749</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add run java main (2)">
+      <option name="closed" value="true" />
+      <created>1743887627327</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743887627327</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,7 +203,8 @@
     <MESSAGE value="Added build.yml" />
     <MESSAGE value="uncomment main.java" />
     <MESSAGE value="Add run java main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add run java main" />
+    <MESSAGE value="Add run java main (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add run java main (2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
