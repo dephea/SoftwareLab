@@ -26,7 +26,7 @@ jobs:
 
       - name: Compile Java source and test files
         run: |
-          javac -d bin -cp libs/junit-platform-console-standalone.jar $(find Lab6/src -name "*.java")
+          javac -d bin -cp libs/junit-platform-console-standalone.jar $(find Lab6/test -name "*.java")
 
       - name: Run JUnit tests
         run: |
