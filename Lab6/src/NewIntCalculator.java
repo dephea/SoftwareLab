@@ -27,4 +27,14 @@ public class NewIntCalculator extends AbstractCalculator{
         this.state *= value;
         return this;
     }
+
+    public NewIntCalculator divide(int value) throws ArithmeticException{
+
+        if (value == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
+        }
+
+        this.state /= value;
+        return this;
+    }
 }

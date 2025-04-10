@@ -1,5 +1,7 @@
 import java.io.IOException;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class Main {
     public static void main(String[] args) throws IOException {
 
@@ -17,6 +19,8 @@ public class Main {
 
         System.out.println("------------------------------------------\nLab6: \n");
         Lab6.Lab6Func();
+
+        //assertTrue()
     }
 
 }

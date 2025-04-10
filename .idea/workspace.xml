@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="Add run java main (2)">
+    <list default="true" id="13c6512e-51e8-4ce1-9e6c-2c6a1dce62a1" name="Changes" comment="build.yml fix">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/test/DoubleCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/test/IntCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab7/src/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab7/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab7/test/GroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/src/outrand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/outrand.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/src/DoubleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/src/DoubleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/src/NewIntCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/src/NewIntCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareLab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +69,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.DoubleCalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IntCalculatorTest.testDivideBy0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IntCalculatorTest.testDividePositives.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IntCalculatorTest.testSubtractNegatives.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IntCalculatorTest.testSubtractPositives.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lwara\Desktop\SoftwareLab\Lab2\src" />
@@ -72,6 +100,66 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DoubleCalculatorTest">
+    <configuration name="DoubleCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DoubleCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntCalculatorTest.testDivideBy0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntCalculatorTest" />
+      <option name="METHOD_NAME" value="testDivideBy0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntCalculatorTest.testDividePositives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntCalculatorTest" />
+      <option name="METHOD_NAME" value="testDividePositives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntCalculatorTest.testSubtractNegatives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntCalculatorTest" />
+      <option name="METHOD_NAME" value="testSubtractNegatives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntCalculatorTest.testSubtractPositives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntCalculatorTest" />
+      <option name="METHOD_NAME" value="testSubtractPositives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DoubleCalculatorTest" />
+        <item itemvalue="JUnit.IntCalculatorTest.testDivideBy0" />
+        <item itemvalue="JUnit.IntCalculatorTest.testDividePositives" />
+        <item itemvalue="JUnit.IntCalculatorTest.testSubtractNegatives" />
+        <item itemvalue="JUnit.IntCalculatorTest.testSubtractPositives" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743887627327</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="build.yml fix">
+      <option name="closed" value="true" />
+      <created>1743887837809</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743887837809</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +300,8 @@
     <MESSAGE value="uncomment main.java" />
     <MESSAGE value="Add run java main" />
     <MESSAGE value="Add run java main (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add run java main (2)" />
+    <MESSAGE value="build.yml fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.yml fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

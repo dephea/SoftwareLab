@@ -15,7 +15,22 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Compile Java files
-        run: javac -d bin $(find src -name "*.java")
-      - name: Run Java program
-        run: java -cp bin Main
+      - name: Create folders
+        run: |
+          mkdir -p bin
+          mkdir -p libs
+
+      - name: Download JUnit 5 Console Standalone
+        run: |
+          curl -L -o libs/junit-platform-console-standalone.jar \
+          https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.jar
+
+      - name: Compile Java files with JUnit
+        run: |
+          javac -d bin -cp libs/junit-platform-console-standalone.jar $(find src -name "*.java")
+
+      - name: Run JUnit tests
+        run: |
+          java -jar libs/junit-platform-console-standalone.jar \
+          --class-path bin \
+          --scan-class-path
