@@ -64,4 +64,28 @@ public class GroupTest {
     public void tearDown() {
         group = null;
     }
+
+    @Test
+    void getStudents() {
+    }
+
+    @Test
+    void setStudents() {
+    }
+
+    @Test
+    void addStudent() {
+    }
+
+    @Test
+    void removeStudent() {
+    }
+
+    @Test
+    void getStudent() {
+    }
+
+    @Test
+    void areStudentsInGroup() {
+    }
 }

@@ -20,6 +20,9 @@ public class Main {
         System.out.println("------------------------------------------\nLab6: \n");
         Lab6.Lab6Func();
 
+        System.out.println("------------------------------------------\nLab9: \n");
+        Lab9.Lab9();
+
         //assertTrue()
     }
 
